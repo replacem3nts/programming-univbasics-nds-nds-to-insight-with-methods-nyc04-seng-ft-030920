@@ -23,5 +23,5 @@ def directors_totals(nds)
     result[nds[dir_index]] = gross_for_director(nds[dir_index])
     dir_index += 1
   end
-  result
+ p result
 end
